@@ -1,6 +1,7 @@
 import React from 'react'
 import { SearchOutlined, AttachFile, MoreVert } from '@material-ui/icons'
 import { Avatar, IconButton } from '@material-ui/core'
+import ChatMessage from './ChatMessage/ChatMessage'
 import './Chat.css'
 
 function Chat() {
@@ -30,17 +31,10 @@ function Chat() {
                 </div>
             </div>
 
-            <div className="chat__body">
-                <p className="chat__message">
-                    <span className="chat__name">Benjamin</span>
 
-                        This is the message
+            <ChatMessage />
 
-                        <span className="chat__timeStamp">
-                        TimeStamp
-                        </span>
-                </p>
-            </div>
+
 
 
         </div>
