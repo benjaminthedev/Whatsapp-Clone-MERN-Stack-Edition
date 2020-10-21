@@ -16,7 +16,7 @@ function ChatFooter() {
                 />
 
                 <button
-                    onclick={sendMessage}
+                    // onclick={sendMessage}
                     type="submit"
                 >
                     Send Your Message
